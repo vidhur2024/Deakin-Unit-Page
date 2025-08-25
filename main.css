@@ -1,23 +1,40 @@
 
-
+/* Styling for main heading (h1) */ 
 h1 {
-  font-size: 40px;
-  font-family: Arial
+  font-size: 40px;  /* Larger font for title emphasis */
+  font-family: Arial  /* set font type */
 }
+
+/* Styling for subheading */ 
 h2 {
   font-size: 25px;
   font-family: Arial
 }
+
+/* Styling for third-level heading/subheading (not used) */ 
 h3 {
   font-family: Arial
 }
+
+/* styling for paragraph text */
 p {
   font-size: 14px;
   font-family: Arial
+
+/* styling for table header and cells */
 }
 div{
   background-color: darkcyan;
   text-align: right;
 }
 
+th, td {
+ padding: 8px;    /* Adds spacing inside cells */
+ text-align: left;    /* Aligns text */
+ border-bottom: 1px solid #ddd; /* Adds light grey line below each row */
+ font-family: Arial
+}
+
+/* Adds light grey background to odd-numbered table rows to help with readability */
+tr:nth-child(odd) {background-color: #f2f2f2;}
 
